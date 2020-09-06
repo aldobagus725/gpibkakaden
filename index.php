@@ -257,17 +257,21 @@
                 <div class="row">
                     <div class="col-sm-4">
                         <p class="footerp">
-                            mamank
+                            Alamat:
+                            Dalung Permai Block D/45
                         </p>
                     </div>
                     <div class="col-sm-4">
                         <p class="footerp">
-                            mamank
+                            Email:
+                           steivensoepardhy33@gmail.com | soepardhysteiven@gmail.com
                         </p>
                     </div>
                     <div class="col-sm-4">
                         <p class="footerp">
-                            mamank
+                            WA:
+                            (+62)87829330624
+
                         </p>
                     </div>
                 </div>
