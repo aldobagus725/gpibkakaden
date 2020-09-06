@@ -1,0 +1,10 @@
+.body{
+    background-color: gainsboro;
+    width: auto;
+}
+
+.container{
+    background-color: white;
+    width: auto;
+    box-shadow: 1;
+}
