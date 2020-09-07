@@ -1,12 +1,30 @@
 <html>
     <head>
+        <style> 
+            a:link {
+              color: red;
+            }
+            a:visited {
+              color: green;
+            }
+            a:hover {
+              color: hotpink;
+            }
+            a:active {
+              color: blue;
+        </style>
         <title>GPIB KaKaDen</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="assets/css/kakaden.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="shortcut icon" href="assets/img/logo/Logo_GPIB%20-YoutubeBadge.png" type="image/x-icon"/>
+        <link rel="stylesheet" type="text/css" href="//js.arcgis.com/3.13/esri/css/esri.css">   
+        <link rel="stylesheet" type="text/css" href="http://esri.github.io/bootstrap-map-js/src/css/bootstrapmap.css">   
     </head>
     <body class="body">
         <div class="container shadow-sm p-3 mb-5 bg-white rounded">
@@ -253,27 +271,100 @@
 
                 </div>
             </div>
-            <div class="footer rounded">
+            <div class="footer rounded", style="background-color:rgb(60, 60, 60);">
                 <div class="row">
                     <div class="col-sm-4">
                         <p class="footerp">
-                            Alamat:
-                            Dalung Permai Block D/45
+                            <small>Alamat:</small>
+                            <br>
+                            <small>Dalung Permai Block D/45</small>
+                            <br>
+                            <br>
+                            <small>Email:</small>
+                            <br>
+                            <small>soepardhy@gmail.com | soepardhy44@gmail.com</small>
+                            <br>
+                            <br>
+                            <small>WA:</small>
+                            <br>
+                            <small>0878-2933-0624</small>
+                            <br>
+                            <br>
+                            <small>Jam Kerja Kantor:</small>
+                            <br>
+                            <small>Senin - Jumat (08.00 - 19.00 wita)</small>
+                            <br>
+                            <br>
+                            <small> Media Social</small>
+                            <br>
+                            <a href="https://www.facebook.com/pages/Gpib%20Kasih%20Karunia%20Denpasar/294394627703250/"><i class="fa fa-facebook-square"></i>
+                            Facebook!</a>
+                            <br>
+                            <a href="https://www.youtube.com/channel/UCGnTRQDrjbatgwX9Xh1NNlQ"><i class="fa fa-youtube-play"></i> Youtube!</a>
+                            <br>
+                            <br>
+                            <small>Copyright © 2020</small>
+                            <br>
+                            <small><a href="http://localhost/gpibkakaden/">GPIB Kasih Karunia Denpasar!</a></small>
+                        </p>
+                    </div>
+                    <div class="col-sm-4">
+                       <p class= "footerp"> 
+                            Alamat Gereja :
+                            <br>    
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15779.34704392465!2d115.18374179370117!3d-8.611666294756654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe360d4ac79d2700c!2sSTTII%20Bali!5e0!3m2!1sen!2sid!4v1599469922694!5m2!1sen!2sid" width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            <br>
                         </p>
                     </div>
                     <div class="col-sm-4">
                         <p class="footerp">
-                            Email:
-                           steivensoepardhy33@gmail.com | soepardhysteiven@gmail.com
+                            Alamat Kantor Gereja :
+                            <br>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d986.1990811681309!2d115.17864942912551!3d-8.615543473641253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd239ff2867de5f%3A0x7ec4fd43725e7651!2sKantor%20Gereja%20GPIB%20Kasih%20Karunia%20Denpasar!5e0!3m2!1sen!2sid!4v1599470204014!5m2!1sen!2sid" width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                         </p>
                     </div>
-                    <div class="col-sm-4">
-                        <p class="footerp">
-                            WA:
-                            (+62)87829330624
-
-                        </p>
-                    </div>
+                            <div class="col-md-3">
+                                <div class="contact-info">
+                                    <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
+                                    <h2>Contact Us</h2>
+                                    <h4>We would love to hear from you !</h4>
+                                    </div>
+                                </div>
+                            <div class="col-md-9">
+                                <div class="contact-form">
+                                    <div class="form-group">
+                                      <label class="control-label col-sm-2" for="fname">First Name:</label>
+                                      <div class="col-sm-10">          
+                                        <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
+                                      </div>
+                                    </div>
+                                    <div class="form-group">
+                                      <label class="control-label col-sm-2" for="lname">Last Name:</label>
+                                      <div class="col-sm-10">          
+                                        <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
+                                      </div>
+                                    </div>
+                                    <div class="form-group">
+                                      <label class="control-label col-sm-2" for="email">Email:</label>
+                                      <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                                      </div>
+                                    </div>
+                                    <div class="form-group">
+                                      <label class="control-label col-sm-2" for="comment">Comment:</label>
+                                      <div class="col-sm-10">
+                                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                                      </div>
+                                    </div>
+                                    <div class="form-group">        
+                                      <div class="col-sm-offset-2 col-sm-10">
+                                        <button type="submit" class="btn btn-default">Submit</button>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
                 </div>
             </div>
         </div>
