@@ -4,7 +4,7 @@
 }
 
 .container{
-    background-color: white;
+/*    background-color: white;*/
     width: auto;
     box-shadow: 1;
 }
@@ -39,7 +39,28 @@
     color: white;
 }
 
-.footerp
-{
-    padding: 15px 15px 15px 15px;
+ul.link{
+    list-style-type: none;
+}
+
+li.fsize{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+a:hover:focus:active{
+    outline: none;
+    text-decoration: none;
+    outline-color: none;
+    outline-offset: inherit;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+}
+
+a{
+    transition: color .4s, background-color .4s;
 }
